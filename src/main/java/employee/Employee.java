@@ -10,4 +10,11 @@ public class Employee {
     public String getFullName() {
         return fullName;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "fullName='" + fullName + '\'' +
+                '}';
+    }
 }
