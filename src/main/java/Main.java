@@ -14,7 +14,5 @@ public class Main {
 
         emailServiceImpl.send(manager, Arrays.asList(workerOne,workerTwo),"titleOne","contentOne");
 
-
-
     }
 }
